@@ -1,0 +1,168 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.head {
+    background-color: darkblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;   
+}
+
+.left-items {
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.right-items {
+    display: flex;
+    gap: 16px;
+}
+
+body {
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+li {
+    height: 10ex;
+    width: 60ex;
+    background-color: darkblue;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 20ex;
+    background-color: darkblue;
+    color: aliceblue;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+    justify-content: space-around;
+    gap: 16px;
+   
+}
+
+.container {
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+}
+
+.box {
+    width: 40ex;
+    height: 20ex;
+    border: 3px solid gray;
+    margin: 0;
+    background-color: white;
+    font-size: ;
+    display: flex;
+    
+
+}
+
+.icon {
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    background-color: lavender;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+
+}
+
+.header {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+
+}
+
+.close-button {
+    background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  padding: 0;
+}
+
+.text {
+    font-size: 12px;
+
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+}
+
+button.continue {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+button.cancel {
+    background-color: white;
+    border: 1px solid gray;
+    color: royalblue; 
+
+}
+
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
