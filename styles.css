@@ -1,5 +1,6 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 .head {
@@ -9,6 +10,22 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;   
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 50%; 
+     
+}
+
+.img1 {
+    background-image: url(images/IshigakiBeach);
+}
+
+.img2 {
+    background-image: url(images/StrayCat.jpg);
 }
 
 .left-items {
@@ -23,11 +40,9 @@
 }
 
 body {
-    background-color: aliceblue;
     height: 100%;
-    width: 100%;
-    border-collapse: collapse;
     margin: 0;
+    background-color:aliceblue;
 }
 
 ul {
@@ -35,6 +50,8 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    
+
 }
 
 li {
@@ -46,6 +63,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .footer {
